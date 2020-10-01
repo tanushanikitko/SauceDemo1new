@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class CheckoutStepTwoPage extends BasePage{
+public class CheckoutStepTwoPage extends BasePage {
 
     public static final By TOTAL_AMOUNT = By.xpath("//div[@class='summary_total_label']");
 

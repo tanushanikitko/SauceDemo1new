@@ -17,13 +17,13 @@ public abstract class BasePage {
     }
 
 
-
     public abstract BasePage isPageOpened();
+
     public abstract BasePage openPage();
 
 
-    public void compareURL (String currentURL ){
-        Assert.assertEquals(driver.getCurrentUrl(),currentURL);
+    public void compareURL(String currentURL) {
+        Assert.assertEquals(driver.getCurrentUrl(), currentURL);
     }
 
 }

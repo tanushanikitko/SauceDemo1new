@@ -28,7 +28,7 @@ public class MenuTest extends BaseTest {
     }
 
     @Test
-    public void logoutItemtest() {
+    public void logoutItemTest() {
         loginPage
                 .openPage()
                 .login(USERNAME, PASSWORD);
