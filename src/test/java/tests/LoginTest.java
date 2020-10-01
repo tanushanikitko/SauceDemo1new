@@ -33,7 +33,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test
-    public void IncorrectCreds() {
+    public void IncorrectData() {
         loginPage
                 .openPage()
                 .loginWithoutRedirect("qwer", "123")
